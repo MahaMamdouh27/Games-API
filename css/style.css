@@ -1,0 +1,76 @@
+body{
+    background-color: #1E202B;
+    height: 100vh;
+
+}
+
+.home{
+    background-image: url(../img/wraper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    /* position: absolute !important;
+    top: 225px;
+    left: 200px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #3A497B !important;
+    z-index:99999;
+}
+.navbar-collapse li a,
+.container a{
+    color: white !important;
+    transition: color 0.5s ease !important;
+}
+
+.container img{
+    width: 40px;
+}
+
+.navbar-collapse li a:hover,
+.container a:hover{
+    color: #0099CC !important;
+}
+
+.collapse .active{
+    color: #0099CC !important;
+}
+
+/* .card{
+    background-color: #3A497B;
+} */
+
+.card .footer span{
+    background-color: #32383E !important;
+}
+
+.details .row span{
+    background-color: #0099CC  !important;
+}
+
+.cardBody p{
+    color: #8D9092 !important;
+    overflow: hidden;
+    display: -webkit-box;
+    /* display 3 lines only */
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 50px;
+}
+
+

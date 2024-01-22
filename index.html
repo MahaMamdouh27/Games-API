@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="home" id="home">
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light w-75 m-auto" id="nav">
+    <div class="container">
+      <img src="img/logo-sm.png" class="me-1" />
+      <a class="navbar-brand" href="#">GAME REVIEWS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+        <div class="div">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" data-category="MMORPG">MMORPG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="SHOOTER" href="#">SHOOTER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="SAILING" href="#">SAILING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="PERMADEATH" href="#">PERMADEATH</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="SUPERHERO" href="#">SUPERHERO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="PIXEL" href="#">PIXEL</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="cards mt-5" id="games">
+    <div class="container">
+      <div class="d-flex gap-5 justify-content-center flex-wrap" id="gamedate">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="details d-none my-5" id="details">
+    <div class="container">
+      <div class="header d-flex justify-content-between">
+        <h1 class="text-white">Details Game</h1>
+        <button type="button" class="btn-close btn-close-white" id="btn-close" aria-label="Close"></button>
+      </div>
+
+      <div class="row my-5" id="detailsContent">
+       
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js" type="module"></script>
+</body>
+
+</html>
